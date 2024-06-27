@@ -1,0 +1,15 @@
+package projectOne;
+import java.util.Scanner;
+public class dev045 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		int contador, numero;
+		
+		System.out.print("Digite um valor inteiro positivo: ");
+		
+
+	}
+
+}

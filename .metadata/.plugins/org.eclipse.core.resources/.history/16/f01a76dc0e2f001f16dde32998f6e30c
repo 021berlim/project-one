@@ -1,0 +1,12 @@
+package projectOne;
+import java.util.Scanner;
+public class dev038 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

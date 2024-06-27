@@ -1,0 +1,46 @@
+package projectOne;
+import java.util.Scanner;
+public class dev035 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args)
+	{
+		double salario, novosalario;
+		String genero;
+		int anosdetrab;
+		
+		System.out.print("INFORME AS INFORMAÇÕES DO FUNCIONÁRIO ABAIXO:");
+		
+		System.out.print("Salário atual:");
+		salario = leia.nextDouble();
+		System.out.print("Gênero:");
+		genero = leia.next();
+		System.out.print("Há quantos anos trabalha na empresa:");
+		anosdetrab = leia.nextInt();
+		
+		if(genero == "F" || genero == "f")
+		{
+			if(anosdetrab < 15)
+				novosalario = (salario * 0.05) + salario;
+			else
+				if(anosdetrab <= 15 & anosdetrab >= 20)
+					novosalario = (salario * 0.12) + salario;
+				else
+					novosalario = (salario * 0.23) + salario;
+		System.out.print("O valor do novo salário é "+novosalario+"");
+		}
+		else
+		 if(genero == "M" ou genero == "m")
+		 {
+			if(anosdetrab < 20)
+				novosalario = (salario * 0.03) + salario;
+			else
+				se(anosdetrab <= 20 e anosdetrab >= 30)
+					novosalario = (salario * 0.13) + salario
+				senao
+					novosalario = (salario * 0.25) + salario
+		escreva("O valor do novo salário é "+novosalario+"")
+
+	}
+
+}

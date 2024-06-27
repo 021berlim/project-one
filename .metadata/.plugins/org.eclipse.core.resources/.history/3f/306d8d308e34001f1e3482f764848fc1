@@ -1,0 +1,50 @@
+package projectOne;
+import java.util.Scanner;
+public class dev049 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		double a, b, resultado;
+		String operador;
+	
+		System.out.print("Digite uma das operações a seguir:\n"
+				+ "\t+ Adição"
+				+ "\t- Subtração"
+				+ "\t* Multiplicação"
+				+ "\t/ Divisão\n");
+		operador = leia.next();
+		
+		System.out.print("Informe os numeros abaixo:");
+		
+		System.out.print("Primeiro Numero:");
+		a = leia.nextDouble();
+		
+		
+		System.out.print("Digite o numero desejado:");
+		b = leia.nextDouble();
+		
+		switch(operador)
+		{
+			case "+":
+				resultado = a+b;
+				System.out.print("Resultado de "+a+"+"+b+"="+resultado+"");
+			break;
+			case "-":
+				resultado = a-b;
+				System.out.print("Resultado de "+a+"-"+b+"="+resultado+"");
+			break;
+			case "*":
+				resultado = a*b;
+				System.out.print("Resultado de "+a+"*"+b+"="+resultado+"");
+			break;
+			case "/":
+				resultado = a/b;
+				System.out.print("Resultado de "+a+"/"+b+"="+resultado+"");
+			break;
+			default:
+				System.out.print("Operador invalido.");
+		}
+	}
+
+}

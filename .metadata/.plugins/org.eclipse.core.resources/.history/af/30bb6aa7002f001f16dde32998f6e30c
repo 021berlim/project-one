@@ -1,0 +1,14 @@
+package projectOne;
+import java.util.Scanner;
+public class dev030 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		double peso, altura , imc;
+		
+		System.out.println("INFORME OS DADOS SOLICITADOS ABAIXO:");
+
+	}
+
+}

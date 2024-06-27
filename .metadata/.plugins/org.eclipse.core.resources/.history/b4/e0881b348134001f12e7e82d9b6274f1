@@ -1,0 +1,18 @@
+package projectOne;
+
+public class dev044 
+{
+
+	public static void main(String[] args) 
+	{
+		int contador = 100;
+		do
+		{
+			contador = contador - 5;
+			System.out.print(""+contador+"");
+		}
+		while(contador > 0);
+		System.out.println("\nACABOU!");
+	}
+
+}

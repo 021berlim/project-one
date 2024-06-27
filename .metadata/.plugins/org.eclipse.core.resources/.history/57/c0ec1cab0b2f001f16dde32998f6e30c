@@ -1,0 +1,43 @@
+package projectOne;
+import java.util.Scanner;
+public class dev033 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		String modeloveiculo;
+		double km, valorfinal;
+		
+		System.out.print("INFORME QUAL O MODELO DO VEÍCULO: ");
+		modeloveiculo = leia.next();
+		
+		System.out.print("Quantos KMs foram percorridos com o veiculo: ");
+		km = leia.nextDouble();
+		
+		if (modeloveiculo == 'L' || modeloveiculo == 'l')
+		{
+			if(km <= 200){
+				valorfinal = km * 0.30 + 150
+				System.out.print("o valor mensal do veículo é "+valorfinal+"");
+		}
+			senao
+				valorfinal = km * 0.25 + 150
+				escreva("o valor mensal do veículo é "+valorfinal+"")
+			
+		}
+		 se(modeloveiculo == 'p' ou modeloveiculo == 'P'){
+		        se(km <= 100){
+				valorfinal = km * 0.20 + 90
+				escreva("o valor mensal do veículo é "+valorfinal+"")
+			}
+			    senao
+					valorfinal = km * 0.10 + 90
+					escreva("o valor mensal do veículo é "+valorfinal+"")
+		         
+		    }
+		   senao
+		       escreva("modelo do veículo invalido")
+
+	}
+
+}

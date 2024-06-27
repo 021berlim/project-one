@@ -1,0 +1,28 @@
+package projectOne;
+import java.util.Scanner;
+public class dev039 {
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		int a,b,c
+		System.out.print("Informe os valores solicitados abaixo:\n")
+
+		escreva("Valor A:")
+		leia(a)
+		escreva("Valor B:")
+		leia(b)
+
+		se(a != b)
+		{
+			c = a * b
+			escreva("A e B eram diferentes então o resultado foi multiplicado e o resultado da conta foi: "+c+"")
+		}
+		senao
+		{
+			c = a + b
+			escreva("A e B eram iguais então o resultado foi somado e o resultado da conta foi: "+c+"")
+		}
+
+	}
+
+}

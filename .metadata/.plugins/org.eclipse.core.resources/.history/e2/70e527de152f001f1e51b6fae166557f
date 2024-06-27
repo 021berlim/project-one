@@ -1,0 +1,19 @@
+package projectOne;
+import java.util.Scanner;
+public class dev042 
+{
+
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args)
+	{
+		int contador = 10;
+		do
+		{
+			contador = contador -1;
+			System.out.print(""+contador+"");
+			
+		}
+		while( contador > & contador<=10);
+	}
+
+}

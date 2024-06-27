@@ -1,0 +1,23 @@
+package projectOne;
+import java.util.Scanner;
+public class dev035 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args)
+	{
+		double salario, novosalario;
+		String genero;
+		int anosdetrab;
+		
+		System.out.print("INFORME AS INFORMAÇÕES DO FUNCIONÁRIO ABAIXO:");
+		
+		System.out.print("Salário atual:");
+		salario = leia.nextDouble();
+		System.out.print("Gênero:");
+		genero = leia.next();
+		System.out.print("Há quantos anos trabalha na empresa:");
+		anosdetrab = leia.nextInt();
+
+	}
+
+}

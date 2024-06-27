@@ -1,0 +1,18 @@
+package projectOne;
+import java.util.Scanner;
+public class dev041
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args)
+	{
+		int contador = 6, mariana;
+		while(contador<=11)
+		{
+			mariana = 6+1;
+			System.out.print(""+mariana+"");
+			
+		}
+
+	}
+
+}

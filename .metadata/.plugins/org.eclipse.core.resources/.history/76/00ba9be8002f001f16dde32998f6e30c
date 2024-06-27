@@ -1,0 +1,29 @@
+package projectOne;
+import java.util.Scanner;
+public class dev030 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		double peso, altura , imc;
+		
+		System.out.println("INFORME OS DADOS SOLICITADOS ABAIXO:");
+		System.out.print("Peso:");
+		peso = leia.nextDouble();
+		System.out.print("Altura:");
+		altura = leia.nextDouble();
+		
+		imc = peso / (altura * altura);
+		
+		if(imc < 18.5)
+		{
+			System.out.print("Seu IMC está abaixo do peso.");
+		}
+		else
+			if(imc <= 19.5 e imc <= 25)
+			{
+			System.out.print("");
+			}
+	}
+
+}

@@ -1,0 +1,13 @@
+package projectOne;
+
+public class dev045 
+{
+
+	public static void main(String[] args) 
+	{
+		int contador, numero;
+		System.out.print("");
+
+	}
+
+}

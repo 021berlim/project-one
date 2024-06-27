@@ -1,0 +1,30 @@
+package projectOne;
+import java.util.Scanner;
+public class dev049 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		double a, b, resultado;
+		String operador;
+	
+		System.out.print("Digite o numero desejado:");
+		a = leia.nextDouble();
+		
+		System.out.print("Digite uma das operações a seguir:\n"
+				+ "\t+ Adição\n"
+				+ "\t- Subtração\n"
+				+ "\t* Multiplicação\n"
+				+ "\t/ Divisão\n");
+		operador = leia.next();
+		
+		System.out.print("Digite o numero desejado:");
+		b = leia.nextDouble();
+		
+		switch(operador)
+		{
+		case "+"
+		}
+	}
+
+}

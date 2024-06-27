@@ -1,0 +1,30 @@
+package projectOne;
+import java.util.Scanner;
+public class dev034 
+{
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		int pontos, horadeatv;
+		double dinheiro;
+		
+		System.out.print("Digite o total de horas de atividades físicas:");
+		horadeatv = leia.nextInt();
+		
+		se(horadeatv < 10)
+		{
+
+			pontos = horadeatv * 2
+		}
+		senao
+			se(horadeatv > 10 e horadeatv < 20)
+		{
+
+				pontos = horadeatv * 5
+     		}
+			senao
+				pontos = horadeatv * 10 
+
+	}
+
+}
